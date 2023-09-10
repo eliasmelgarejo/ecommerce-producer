@@ -1,0 +1,11 @@
+server:
+  port: 9000
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+kafka:
+  groud-id: group_id
+  topic: ecommerce_product_sales
+  num-partitions: 1
+  replication-factor: 1
+
